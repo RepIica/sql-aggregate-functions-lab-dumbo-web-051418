@@ -20,5 +20,5 @@ def average_gpa_for_9th_grade
   "SELECT FROM"
 end
 
-INSERT INTO students (name, grade, gpa, tardies)
-    VALUES           ("John", 11, 3.4, 3);
+# INSERT INTO students (name, grade, gpa, tardies)
+#     VALUES           ("John", 11, 3.4, 3);
