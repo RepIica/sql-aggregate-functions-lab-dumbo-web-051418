@@ -13,11 +13,11 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT FROM"
+  "SELECT SUM(tardies) FROM"
 end
 
 def average_gpa_for_9th_grade
-  "SELECT FROM"
+  "SELECT AVG(gpa) FROM grade = 9"
 end
 
 # INSERT INTO students (name, grade, gpa, tardies)
