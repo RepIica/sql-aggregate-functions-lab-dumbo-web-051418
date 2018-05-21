@@ -17,7 +17,7 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  "SELECT AVG(gpa) FROM grade = 9;"
+  "SELECT AVG(gpa) FROM stuents WHERE grade = 9;"
 end
 
 # INSERT INTO students (name, grade, gpa, tardies)
