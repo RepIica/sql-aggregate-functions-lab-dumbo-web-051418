@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  "SELECT FROM"
+  "SELECT gpa FROM students SORT BY gpa DESC LIMIT 1"
 end
 
 def lowest_student_gpa
@@ -19,3 +19,6 @@ end
 def average_gpa_for_9th_grade
   "SELECT FROM"
 end
+
+INSERT INTO students (name, grade, gpa, tardies)
+    VALUES           ("John", 11, 3.4, 3);
